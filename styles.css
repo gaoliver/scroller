@@ -1,6 +1,6 @@
 :root {
     font-size: 18px;
-    ---white: aliceblue;
+    ---white: #f0f8ff;
     ---black: #252525;
     ---header-color: aqua;
     color: var(---black);
@@ -38,7 +38,12 @@ h3 {
 }
 
 code {
-    color: rgb(255, 140, 0)
+    color: #ff8c00;
+    margin: 0 2px;
+}
+
+span {
+    color: var(---white)
 }
 
 .last_paragraph {
