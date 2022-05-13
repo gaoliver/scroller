@@ -1,0 +1,51 @@
+:root {
+    font-size: 18px;
+    ---white: aliceblue;
+    ---black: #252525;
+    ---header-color: aqua;
+    color: var(---black);
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: var(---header-color);
+    transition: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.header h3 {
+    color: #FFF9;
+}
+
+h1 {
+    color: var(---white);
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+code {
+    color: rgb(255, 140, 0)
+}
+
+.last_paragraph {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.desktop_paragraph {
+    max-width: 50%;
+}

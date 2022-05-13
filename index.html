@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Scrolling test</title>
+</head>
+
+<body onscroll="scrollFunction()" onload="onStart()" onresize="changeFormat()">
+    <section id="first_section" class="header">
+        <h1>Infinite Repeater Scroll!</h1>
+        <h3>with a random color plus</h3>
+    </section>
+    <section id="content">
+        <h3>How it works</h3>
+        <p>
+            This is made by a simple HTML code file with 2 sections. Inside this filme we are going to import the <code>JavaScript</code> file, with the required functions for this effect.
+        </p>
+        <p>
+            When it reaches end, <code>JavaScript</code> will turn the scroll position to zero, and the change color function will generate random color code to the first section, which is being automatically repeated in the end of page, to make the continuous
+            illusion.
+        </p>
+        <p>That's it! Just keep scrolling.</p>
+    </section>
+
+    <script src="./script.ts"></script>
+</body>
+
+</html>
